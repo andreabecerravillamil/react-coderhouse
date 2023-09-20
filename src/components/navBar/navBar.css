@@ -1,0 +1,30 @@
+nav {
+    width: 100%;
+    background-color: lightskyblue;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+li, a {
+    color: black;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.cartNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
