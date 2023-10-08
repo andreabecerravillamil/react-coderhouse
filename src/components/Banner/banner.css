@@ -1,0 +1,10 @@
+.greetingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.greetingContainer h1 {
+    color: #548cbc;
+}

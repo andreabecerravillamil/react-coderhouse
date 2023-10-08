@@ -1,8 +1,15 @@
 .cardContainer {
     display: flex;
     padding-bottom: 10rem;
+    
 }
 .CardP {
     margin: 10px;
     color: black;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+}
+
+.textLink {
+    text-decoration: none;
 }

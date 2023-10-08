@@ -1,0 +1,16 @@
+.cardContainer {
+    display: flex!important;
+}
+
+.cardText {
+    padding-right: 2vh;
+}
+
+.btnBack {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textBack {
+    font-size: 16px;
+}

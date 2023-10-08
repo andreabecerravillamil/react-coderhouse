@@ -1,0 +1,135 @@
+[
+        {
+            "id": 1,
+            "img": "../src/img/libro1.jpg",
+            "titulo": "Escuela de mujeres",
+            "autor": "Inma López Silva",
+            "precio": 5000,
+            "stock": 15,
+            "genero": "contemporaneo",
+            "paginas": 385,
+            "sinopsis": "Escuela de mujeres es una novela sobre la pérdida. Habla de los sueños rotos de aquellas que cumplen los requisitos para el éxito y la felicidad pero un buen día caen en la cuenta de que todo era una farsa llena de convenciones, expectativas y falsedades. Esta es la novela, en fin, de las personas que buscan desesperadamente la felicidad cuando creen que lo han perdido todo."
+        },
+        {
+            "id": 2,
+            "img": "../src/img/libro2.jpg",
+            "titulo": "Madera de cerezo",
+            "autor": "Marica Bodrožić",
+            "precio": 8000,
+            "stock": 10,
+            "genero": "realismo-magico",
+            "paginas": 800,
+            "sinopsis": "La nueva novela de Marica Bodrizic, Madera de cerezo, demuestra una vez más a la crítico Carola Ebeling el talento de la autora croata para crear imágenes de una intensidad impresionante y un atrevido estilo narrativo de peculiar belleza. Una vez más se reencuentra con Arjeta, de cuarenta años, que en la última novela solo desempeñaba un papel secundario como amiga de la protagonista Nadeshda y que, tras numerosos viajes entre cajas de mudanza, se enfrenta ahora a los recuerdos de la infancia en su recién ocupado apartamento en Berlín. El crítico sigue con fascinación cómo el protagonista de Brodrozic no sólo aborda las experiencias violentas de su infancia durante la guerra de Sarajevo en instantáneas conmovedoras, sino que también recuerda sus amistades y amores de su época de estudiante en París."
+        },
+        {
+            "id": 3,
+            "img": "../src/img/libro3.jpg",
+            "titulo": "QED, las cosas como son",
+            "autor": "Gertrude Stein",
+            "precio": 6000,
+            "stock": 5,
+            "genero": "ficcion-historica",
+            "paginas": 215,
+            "sinopsis": "Una narración pionera, de las primeras novelas explícitamente lesbianas. Gertrude Stein la escribió en 1903. Tenía casi treinta años. Según la leyenda, fue censurada por la posterior y poderosa pareja de Stein, Alice B. Toklas, ya que narraba, con muchos datos autobiográficos, la juvenil iniciación amorosa de la autora, años antes de que Toklas apareciera en su vida. \nTres jóvenes cultas, una muy rica, las otras de clase media, se enfrentan a sentimientos de atracción y juego erótico casi sin saber cómo realizar lo que desean: la novela describe con perspicacia y cautela el aprendizaje de esos nuevos usos y de las palabras que los hacen patentes.La búsqueda de un modo de amar y un modo moderno de hablar de un amor que se estaba inventando. Incluso el término «queer», que hoy significa amor no heterosexual, y que Stein usa intencionada y repetidamente, era ambigüo: todavía quería decir raro, extravagante, anticonvencional, pero ya insinuaba el otro mundo, el mundo secreto."
+        },
+        {
+            "id": 4,
+            "img": "../src/img/libro4.jpg",
+            "titulo": "Pombero",
+            "autor": "Marina Closs",
+            "precio": 7000,
+            "stock": 10,
+            "genero": "contemporaneo",
+            "paginas": 385,
+            "sinopsis": "¿Cómo encontrar la propia ficción que sostiene nuestra identidad o la de otros? ¿Cómo escapar de esas ficciones aniquiladoras o necesarias? La idea de identidad como ilusión atraviesa esta poderosa colección de cuentos de Marina Closs, a veces como nudo asfixiante y a veces como punto de apoyo. Los personajes de Pombero parecen recomponerse a medida que hablan: nadie tiene una identidad sin una historia, nadie tiene una historia sin una voz. Estos mismos personajes deambulan en la forma más móvil y frágil de la existencia, que es la propia palabra, o se pierden en un mundo ajeno, a veces, demasiado real, a veces, demasiado insólito. Pese a ello, quedan estos rastros o relatos ficticios en donde alguien (una voz) se hunde o emerge."
+        },
+        {
+            "id": 5,
+            "img": "../src/img/libro5.jpg",
+            "titulo": "Estado del malestar",  
+            "autor": "Nina Lykke",
+            "precio": 4000,
+            "stock": 5,
+            "genero": "ficcion-historica",
+            "paginas": 215,
+            "sinopsis": "Galardonada con el Premio Brage, el más importante galardón literario de Noruega, esta novela ha supuesto la consagración de Nina Lykke como una de las grandes escritoras de su país gracias a la ironía con la que critica el supuesto paraíso de los países nórdicos. Estado del malestar es una divertida sátira de la insoportable levedad de la clase media surgida al calor del Estado del bienestar, vista por una mujer privilegiada que vive en uno de los países más ricos del mundo y, sin embargo, se halla siempre al borde de un ataque de nervios. \nElin es una doctora muy profesional y competente, pero está cansada de ser buena, de ser una esposa y madre ejemplar, de atender a pacientes que se autodiagnostican en Google y buscan curas a males imaginarios. Bebe casi una botella al día del vino más caro y ve series de televisión, mientras su marido Axel se inscribe en una carrera de esquí tras otra. Hasta que un día, por error, Elin envía una solicitud de amistad a Bjørn, su novio de juventud, poniéndolo todo patas arriba. Acorralada por sus dilemas, Elin abandona su casa y se instala a vivir en su consulta. Sabe que en algún momento tendrá que salir de su madriguera y afrontar la realidad, pero permanece allí en una especie de estado catatónico. Desde una esquina la interpela el esqueleto de plástico Tore, una voz en off mordaz y socarrona que le señala las verdades que no se atreve a reconocer."
+        },
+        {
+            "id": 6,
+            "img": "../src/img/libro6.jpg",
+            "titulo": "Cartas a Emma Bowlcut",
+            "autor": "Bill Callahan",
+            "precio": 1000,
+            "stock": 15,
+            "genero": "ficcion-historica",
+            "paginas": 615,
+            "sinopsis": "Después de ver a una mujer llamada Emma Bowlcut en una fiesta, el protagonista de esta novela epistolar, un científico incondicional del boxeo, empieza a mandarle cartas obsesivamente. Sesenta y dos preciosas misivas en las que el autor desgrana hábilmente temas como la seducción, el amor, su vida cotidiana, sus deseos y sus frustraciones. Cada carta es por sí misma una viñeta que puesta al lado de las otras logra crear un potente patchwork emocional que nos dice tanto de la psique del protagonista como de la propia tarea del narrador de ficción. Un trabajo de una sensibilidad deslumbrante que se lee como una novela íntima y confesional, en la línea de las mejores letras del músico estadounidense. Cartas a Emma Bowlcut apela directamente al lector, a su soledad, a sus esperanzas y a sus anhelos, y nos acompaña en una deriva nocturna que gira sobre nosotros como las piezas brillantes del caleidoscopio de un niño."
+        },
+        {
+            "id": 7,
+            "img": "../src/img/libro7.jpg",
+            "titulo": "Los años",
+            "autor": "Annie Ernaux",
+            "precio": 3000,
+            "stock": 20,
+            "genero": "realismo-magico",
+            "paginas": 450,
+            "sinopsis": "'Se desvanecerán todas de golpe como ha sucedido con los millones de imágenes que estaban tras las frentes de los abuelos muertos hace medio siglo, de los padres, muertos también ellos. Imágenes donde aparecíamos como niñas en medio de otros seres ya desaparecidos antes de que naciéramos, igual que en nuestra memoria están presentes nuestros hijos pequeños junto a nuestros padres y nuestras compañeras de colegio. Y un día estaremos en el recuerdo de nuestros hijos entre nietos y personas que aún no han nacido. Como el deseo sexual, la memoria no se detiene nunca. Empareja a muertos y vivos, a seres reales e imaginarios, el sueño y la historia.' \nA través de fotos y recuerdos dejados por los acontecimientos, las palabras y las cosas, Annie Ernaux nos hace sentir el paso de los años, desde la posguerra hasta hoy. Al mismo tiempo, inscribe la existencia en una nueva forma de autobiografía, impersonal y colectiva."
+        },
+        {
+            "id": 8,
+            "img": "../src/img/libro8.jpg",
+            "titulo": "Una dama perdida",
+            "autor": "Willa Cather",
+            "precio": 9000,
+            "stock": 10,
+            "genero": "contemporaneo",
+            "paginas": 385,
+            "sinopsis": "Marianne Forrester, esposa de un pionero del ferrocarril, anfitriona de la única casa elegante de la triste población de Sweet Water, siempre alegre en la riqueza y siempre resistente en la penuria, pasa de ser una gran señora a una mujer señalada por todas las habladurías. Un joven que la adora acaba despreciándola, y sobre su relación construye la autora un espléndido ejercicio sobre los entresijos de toda idealización."
+        },
+        {
+            "id": 9,
+            "img": "../src/img/libro9.jpg",
+            "titulo": "Las cosas que digo son ciertas",
+            "autor": "Blanca Varela",
+            "precio": 4500,
+            "stock": 20,
+            "genero": "contemporaneo",
+            "paginas": 185,
+            "sinopsis": "Las cosas que digo son ciertas”, dice un poema de Blanca Varela. Me gusta el tono de ese verso, de afirmación sin altisonancias, de manifiesto sin réplica ni exigencias. Yo querría hablar en ese tono como quien constata. Como quien celebra lo que hay y también lo que todavía no ha llegado a ser o no ha sabido conquistar. La inseguridad, los miedos, la soledad terrible están allí, cada vez que nos sentamos a escribir, pero también la luz, la exaltación, la posibilidad de comprender un poco más, de transformar eso que Ana Cristina Cesar llamó “la maldad de escribir” en un acto que pueda consolarnos de todo lo que nos deja ausentes a nosotras, de nosotras mismas."
+        },
+        {
+            "id": 10,
+            "img": "../src/img/libro10.jpg",
+            "titulo": "Van Gogh el suicidado por la sociedad",
+            "autor": "Antonin Artaud",
+            "precio": 4000,
+            "stock": 30,
+            "genero": "contemporaneo",
+            "paginas": 625,
+            "sinopsis": "En Van Gogh, el suicidio de la sociedad, publicado en 1947, pocos meses antes de su muerte, Antonin Artaud rinde un deslumbrante homenaje al pintor. No, Van Gogh no estaba loco, insiste, o lo estaba en el sentido de esa auténtica alienación con la que la sociedad y los psiquiatras no quieren tener nada que ver. “¿Pero qué garantía tienen las personas obviamente dementes de este mundo de ser atendidas por personas auténticamente vivas?”"
+        },
+        {
+            "id": 11,
+            "img": "../src/img/libro11.jpg",
+            "titulo": "El niño que cargaba agua en el colador",
+            "autor": "Manoel de Barros",
+            "precio": 9000,
+            "stock": 8,
+            "genero": "realismo-magico",
+            "paginas": 100,
+            "sinopsis": "Las ilustraciones de María Wernicke logran captar y transmitir la sutileza estética y temática del poema: el sentido de las palabras, la obstinación por captar lo permanente en lo perecedero de la vida, la poesía como forma de estar en el mundo."
+        },
+        {
+            "id": 12,
+            "img": "../src/img/libro12.jpg",
+            "titulo": "La vida secreta de las plantas",
+            "autor": "Christopher Bird",
+            "precio": 7500,
+            "stock": 10,
+            "genero": "realismo-magico",
+            "paginas": 500,
+            "sinopsis": "Escuela de mujeres es una novela sobre la pérdida. Habla de los sueños rotos de aquellas que cumplen los requisitos para el éxito y la felicidad pero un buen día caen en la cuenta de que todo era una farsa llena de convenciones, expectativas y falsedades. Esta es la novela, en fin, de las personas que buscan desesperadamente la felicidad cuando creen que lo han perdido todo."
+        }
+        
+]

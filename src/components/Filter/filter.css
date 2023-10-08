@@ -1,0 +1,12 @@
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 10vh;
+}
+
+.li {
+    padding: 5rem;
+}
