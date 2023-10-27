@@ -2,45 +2,50 @@ import { useState, useEffect } from 'react'
 import './category.css'
 import Item from '../Item/item'
 import { useParams } from "react-router-dom";
-import listProducts from "../ItemListContainer/products.json"
+import Spinner from "../Spinner/Spinner";
+
+import { collection, query, getDocs, where } from "firebase/firestore";
+import { db } from "../../firebase/firebaseConfig";
 
 
 const Category = () => {
     let { generoId } = useParams();
 
     const [products, setProducts] = useState([])
-
-    const getProducts = () => {
-        return new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(listProducts)
-            }, 500)
-        })
-      }
-
-    let filterItems = products.filter((product) => {
-        return product.genero === generoId;
-    });
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        getProducts()
+        const collectionRef = query(collection(db, 'products'), where('genero', '==', generoId))
+
+        getDocs(collectionRef)
         .then(response => {
-            setProducts(response)
+          const productsAdapted = response.docs.map(doc => {
+            const data = doc.data()
+            return { itemId: doc.id, ...data}
+          })
+          setProducts(productsAdapted)
         })
         .catch(error => {
-            console.error(error)
+          console.log(error)
         })
-    }, [])
+        .finally(() => {
+          setLoading(false)
+        })
+        
+    }, [generoId])
 
     return(
-        <div className='ListGroup'>
-            {filterItems.map((product) => {
+        <div>
+            <div className='ListGroup'>
+            {products.map((product) => {
                 return (
-                <div key={product.id}>
+                <div key={product.itemId}>
                     <Item {...product} />
                 </div>
                 );
             })}
+        </div>
+        {loading && <div><Spinner /></div>}
         </div>
     )
 }

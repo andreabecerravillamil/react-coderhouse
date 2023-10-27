@@ -1,16 +1,34 @@
 .cardContainer {
-    display: flex!important;
+    border: 2px solid #548cbc;
+    border-radius: 0.3rem;
+    display: flex;
+
+}
+
+.cardDetail {
+    display: flex;
 }
 
 .cardText {
     padding-right: 2vh;
 }
 
-.btnBack {
+.btnActions {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-.textBack {
-    font-size: 16px;
+.btnBack {
+    margin-top: 0.5rem;
+    width: 180px;
+}
+
+.toCart {
+    width: 180px;
+}
+
+.price {
+    padding-top: 2rem;
 }

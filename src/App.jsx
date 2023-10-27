@@ -4,8 +4,10 @@ import ItemListContainer from './components/ItemListContainer/itemListContainer'
 import NavBar from './components/navBar/navBar';
 import Category from './components/Category/Category'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Filter from './components/Filter/Filter'
 import Banner from './components/Banner/Banner'
+import Cart from './components/Cart/Cart'
+import { CartProvider } from './context/CartContext';
+import Checkout from './components/Checkout/Checkout'
 
 
 const App = () => {
@@ -13,16 +15,19 @@ const App = () => {
   return (
     <Router>
       <div>
-        <NavBar />
-        <Banner title="/. Un libro para todos ./" />
-        <Filter />
-        <div className='ProductsContainer'>
-          <Routes>
-            <Route path="/" element={<ItemListContainer  />} />
-            <Route path="/category/:generoId" element={<Category  />} />
-            <Route path="/detail/:id" element={<ItemDetailsContainer />}/>
-          </Routes>
-        </div>
+        <CartProvider>
+          <NavBar />
+          <Banner title="/. Un libro para todos ./" />
+          <div className='ProductsContainer'>
+            <Routes>
+              <Route path="/" element={<ItemListContainer  />} />
+              <Route path="/category/:generoId" element={<Category  />} />
+              <Route path="/detail/:itemId" element={<ItemDetailsContainer />}/>
+              <Route path="/cart" element={<Cart />}/>
+              <Route path="/checkout" element={<Checkout />} />
+            </Routes>
+          </div>
+        </CartProvider>
       </div>
     </Router>
   )

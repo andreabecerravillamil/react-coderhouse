@@ -1,47 +1,43 @@
-import "./itemListContainer.css";
 import { useState, useEffect } from 'react'
-import listProducts from "./products.json"
 import ItemList from '../ItemList/itemList'
+import "./itemListContainer.css";
+import Spinner from "../Spinner/Spinner";
 
-
-export const getProductById = (productId) => {
-  return new Promise((resolve) => {
-      setTimeout(() => {
-          resolve(listProducts.find(prod => prod.id == productId))
-       }, 500)
-  })
-}
+import { collection, getDocs} from "firebase/firestore";
+import { db } from "../../firebase/firebaseConfig";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([])
-
-
-const getProducts = () => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(listProducts)
-        }, 500)
-    })
-  }
-
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    getProducts()
+    setLoading(true)
+    const collectionRef =  collection(db, 'products')
+
+    getDocs(collectionRef)
       .then(response => {
-          setProducts(response)
+        const productsAdapted = response.docs.map(doc => {
+          const data = doc.data()
+          return { itemId: doc.id, ...data}
+        })
+        setProducts(productsAdapted)
       })
       .catch(error => {
-          console.error(error)
+        console.log(error)
       })
-  }, [])
+      .finally(() => {
+        setLoading(false)
+      })
+  }, []);
 
   return (
     <div className="productContainer">
       <div>
         <ItemList products={products}/>
       </div>
+      {loading && <div><Spinner /></div>}
     </div>
   );
 };
 
-export default ItemListContainer
+export default ItemListContainer;

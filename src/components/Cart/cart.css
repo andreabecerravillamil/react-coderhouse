@@ -1,0 +1,41 @@
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    margin: 2rem 0 2rem 0;
+    width: 60rem;
+    border: 1.5px solid #548cbc;
+    color: #548cbc;
+}
+
+.btnClean {
+    width: 180px;
+    margin-right: 2rem;
+}
+
+.btnEnd {
+    width: 180px;
+}
+
+.btnBack {
+    width: 180px;
+}
+
+.btnBackEmpty {
+    width: 180px;
+    margin-top: 2rem;
+}
+
+.cartEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

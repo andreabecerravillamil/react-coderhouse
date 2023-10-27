@@ -3,11 +3,12 @@ nav {
     background-color: #548cbc;
     min-height: 10vh;
     display: flex;
+    justify-content: center;
 }
 
 .ulNav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
 }

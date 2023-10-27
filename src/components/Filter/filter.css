@@ -8,5 +8,10 @@
 }
 
 .li {
-    padding: 5rem;
+    padding: 2rem;
+}
+
+.filterElements {
+    display: flex;
+    align-items: center;
 }
