@@ -11,10 +11,14 @@ npm run dev
 ```
 <br>**_Herramientas utilizadas:<br>_**
 - React
-- Javascript
+- Components
+- React Router Dom
+- Context API
 - Material UI
+- Material Icons
 - SweetAlert2
 - Firebase
+- Vite
 
 <br>**_Preview pantallas_**<br><br>
 ![Capturas de pantalla páginas de las web.](https://github.com/andreabecerravillamil/react-coderhouse/assets/13601465/0976b757-2c74-4653-b875-64c6da59d95b)
