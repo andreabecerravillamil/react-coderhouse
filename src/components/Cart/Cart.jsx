@@ -15,22 +15,22 @@ const Cart = () => {
       </div>
     )
   } else {
-  return (
-    <div className="cartContainer">
-      <div>
-        {cart.map(p => <CartItem key={p.id} {...p}/>) }
-        <h3>Total: ${totalAmount}</h3>
-        <hr />
+    return (
+      <div className="cartContainer">
+        <div>
+          {cart.map(p => <CartItem key={p.id} {...p}/>) }
+          <h3>Total: ${totalAmount}</h3>
+          <hr />
+        </div>
+        <div>
+          <button onClick={() => clearCart()} className="btnClean">Limpiar carrito</button>
+          <Link to="/checkout"><button className="btnEnd">Finalizar Compra</button></Link>
+        </div>
+        <div>
+          <Link to="/"><button className='btnBack'>Volver</button></Link>
+        </div>
       </div>
-      <div>
-        <button onClick={() => clearCart()} className="btnClean">Limpiar carrito</button>
-        <Link to="/checkout"><button className="btnEnd">Finalizar Compra</button></Link>
-      </div>
-      <div>
-        <Link to="/"><button className='btnBack'>Volver</button></Link>
-      </div>
-    </div>
-  )
+    )
   }
 }
 

@@ -34,7 +34,7 @@ const CheckoutForm = ({ onConfirm }) => {
         <label className="label">
           <input 
             className="input"
-            placeholder="Telefono"
+            placeholder="Teléfono"
             type="text"
             value={phone}
             onChange={({ target }) => setPhone(target.value)}

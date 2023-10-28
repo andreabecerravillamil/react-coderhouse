@@ -50,6 +50,7 @@ const Checkout = () => {
     if(orderId) {
         return <div>{orderId && <OrderDetailsMsg orderId={orderId} />}</div>
     }
+    
   return (
     <div className="orderData">
       <h1>Datos de compra</h1>

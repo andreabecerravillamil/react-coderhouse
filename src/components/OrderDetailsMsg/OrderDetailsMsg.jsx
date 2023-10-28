@@ -6,7 +6,7 @@ const OrderDetailsMsg = ({ orderId }) => {
       title: '¡GRACIAS POR SU COMPRA!',
       icon: 'success',
       html:
-        `<p>Su compra ha sido registrada con exito. El código de orden es: ${ orderId }</p>`,
+        `<p>Su compra ha sido registrada con éxito. El código de orden es: ${ orderId }</p>`,
       showCloseButton: true,
       allowOutsideClick: true,
       confirmButtonColor: "#548cbc",
