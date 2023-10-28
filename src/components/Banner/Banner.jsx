@@ -1,6 +1,5 @@
 import './banner.css'
 
-
 const Banner = ({title}) => {
   return (
     <div className="greetingContainer">

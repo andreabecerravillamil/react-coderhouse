@@ -7,7 +7,7 @@ import "./item.css";
 import { Link } from "react-router-dom";
 import ItemDetailsContainer from '../ItemDetailsContainer/ItemDetailsContainer';
 
-const item = ({ itemId, titulo, autor, img, precio, stock }) => {
+const item = ({ itemId, titulo, autor, img, precio }) => {
 
     return (
       <Card sx={{ maxWidth: 345 }} className="CardP">

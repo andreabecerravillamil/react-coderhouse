@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions } from '@mui/material';
 import { Link } from 'react-router-dom'
 import ItemCount from '../ItemCount/itemCount';
 import { useContext, useState, useEffect } from 'react';
@@ -12,7 +11,6 @@ import { CartContext } from '../../context/CartContext';
 const ItemDetails = ({id, titulo, autor, img, sinopsis, precio, stock}) => {
     const [quantityAdded, setQuantityAdded] = useState(0)
     const [alreadyInCart, setAlreadyInCart] = useState(false)
-
 
     const { addItem, isInCart } = useContext(CartContext)
 
