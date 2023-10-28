@@ -1,8 +1,24 @@
-# React + Vite
+# Proyecto CoderHouse - Ecommerce editorial 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Alumna Andrea Becerra Villamil - Comisión 47220
 
-Currently, two official plugins are available:
+<br>**_Para iniciar el proyecto:_**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+git clone https://github.com/andreabecerravillamil/react-coderhouse.git
+npm install
+npm run dev
+```
+<br>**_Herramientas utilizadas:<br>_**
+- React
+- Components
+- React Router Dom
+- Context API
+- Material UI
+- Material Icons
+- SweetAlert2
+- Firebase
+- Vite
+
+<br>**_Preview pantallas_**<br><br>
+![Capturas de pantalla páginas de las web.](https://github.com/andreabecerravillamil/react-coderhouse/assets/13601465/0976b757-2c74-4653-b875-64c6da59d95b)
